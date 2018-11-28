@@ -59,7 +59,7 @@
 			return _dialog;
 		},
 		_dismissDilog = function(callback) {
-			_cover.off().on('click', function(e) {
+			_cover.off().on('click touchstart', function(e) {
 				e.preventDefault();
 				e.stopPropagation();
 				_hideDialog.call(null, callback);
