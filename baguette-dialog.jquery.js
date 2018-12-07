@@ -31,7 +31,7 @@
 				_dialog.css({
 					zIndex: 20000,
 					position: 'absolute',
-					top: '15%',
+					top: '8%',
 					left: '50%',
 					marginLeft: -(_dialog.outerWidth() / 2),
 					//left: ($('body').outerWidth() - _dialog.outerWidth()) / 2,
