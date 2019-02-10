@@ -15,7 +15,7 @@ npm install baguette-dialog
 ```javascript
 require('baguette-dialog/baguette-dialog.jquery.js');
 ```
-##Demo
+## Demo
 [Demo on jsFiddle](https://jsfiddle.net/Palehorse/xs0f2p5t/47)
 ## 使用方法
 #### HTML
