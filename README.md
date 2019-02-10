@@ -72,7 +72,7 @@ $('#popup-dialog').dialog('show');
 ```javascript
 $('#popup-dialog').dialog('hide');
 ```
-#### 在視窗以外的任意處點擊滑鼠左鍵可關閉視窗
+#### 在對話視窗以外的任意處點擊滑鼠左鍵可關閉視窗
 ```javascript
 $('#popup-dialog').dialog('dismiss');
 ```
