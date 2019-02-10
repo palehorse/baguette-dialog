@@ -21,12 +21,12 @@ require('baguette-dialog/baguette-dialog.jquery.js');
 #### HTML
 ```html
 <div id="popup-dialog">
-<div class="header">
-<div id="close-dialog">X</div>
-</div>
-<div class="message">
-<h3>This is a simple example</h3>
-</div>
+    <div class="header">
+        <div id="close-dialog">X</div>
+    </div>
+    <div class="message">
+        <h3>This is a simple example</h3>
+    </div>
 </div>
 ```
 #### CSS
