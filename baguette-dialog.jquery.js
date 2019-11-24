@@ -28,13 +28,13 @@
 				top: 0,
 				left: 0,
 			}).fadeIn(_defaults.latency, function() {
+				var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
 				_dialog.css({
 					zIndex: 20000,
 					position: 'absolute',
-					top: '8%',
+					top: scrollTop + 85,
 					left: '50%',
 					marginLeft: -(_dialog.outerWidth() / 2),
-					//left: ($('body').outerWidth() - _dialog.outerWidth()) / 2,
 
 				}).fadeIn(_defaults.latency, function() {
 					if (typeof callback === 'function') {
