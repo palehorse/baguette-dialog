@@ -92,5 +92,16 @@
 			default:
 				console.error('Parameters error!');
 		}
+
+		_dialog.find('#close-dialog').click(function(e) {
+			e.preventDefault();
+			e.stopPropagation();
+
+			if (typeof _defaults.onClose === 'function') {
+				_methods.hide.call(_defaults.onClose);
+			} else {
+				_methods.hide.call();
+			}
+		});
 	}
 });
